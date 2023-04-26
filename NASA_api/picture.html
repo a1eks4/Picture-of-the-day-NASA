@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2ecd1ef5ee.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 flex">
+                <ul class="navbar">
+                    <li><a href="#picture.html" target="_blank">Picture of the day</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h1>Picture of the day NASA</h1>
+    <br>
+    <div class="naziv">
+
+    </div>
+    <br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="opis">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="imageDiv">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 flex1">
+                <button class="choose"><i class="fa-regular fa-calendar"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 rows">
+                    <button class="closeModal"><i class="fa-solid fa-x"></i></button>
+                    <label for="year">Izaberi godinu(2015-2022): </label>
+                    <input type="number" min="1965" max="2022" id="ye"/>
+                    <label for="month">Izaberi mesec(januar-decembar): </label>
+                    <input type="number" min="1" max="12" id="mo" />
+                    <label for="day">Izaberi dan(1-31): </label>
+                    <input type="number" min="1" max="31" id="da" />
+                    <button class="submit">Primeni</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
